@@ -1,1 +1,46 @@
+# 📊 Advertising Sales Prediction using Linear Regression
+
+This project predicts **Sales** based on advertising expenses across **TV, Radio, and Newspaper** channels.  
+The model used is **Multiple Linear Regression**, a fundamental Machine Learning algorithm for continuous value prediction.
+
+---
+
+## 🧠 Project Goal
+
+To understand how different advertising channels affect product sales, and to evaluate how well Linear Regression can model the relationship.
+
+---
+
+## 📁 Dataset Information
+
+The dataset (`Advertising.csv`) contains:
+
+| Feature       | Description |
+|---------------|-------------|
+| TV            | Advertising budget spent on TV (in thousands) |
+| Radio         | Advertising budget spent on Radio (in thousands) |
+| Newspaper     | Advertising budget spent on Newspaper (in thousands) |
+| Sales         | Units sold (target variable) |
+
+**Note:** The dataset may include column `Unnamed: 0`, which is removed during preprocessing.
+
+---
+
+## 🛠️ Technologies Used
+
+| Library | Purpose |
+|--------|---------|
+| Pandas | Data Loading & Cleaning |
+| NumPy | Numerical Computations |
+| Scikit-Learn | Model Training & Error Metrics |
+| Train-Test Split | Model Testing & Validation |
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/Advertising-Sales-Prediction.git
+cd Advertising-Sales-Prediction
 
