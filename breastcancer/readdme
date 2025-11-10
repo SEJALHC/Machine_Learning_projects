@@ -1,1 +1,51 @@
+# 🩺 Breast Cancer Prediction using Decision Tree Classifier
+
+This project demonstrates a **Machine Learning Classification Model** to detect whether a breast tumor is **Malignant (Cancerous)** or **Benign (Non-Cancerous)** using the **Breast Cancer Wisconsin Dataset**.  
+The dataset is loaded directly from **Scikit-Learn** and analyzed with Exploratory Data Analysis (EDA) and visualizations.
+
+---
+
+## 📌 Project Overview
+
+The purpose of this project is to:
+- Load and understand the Breast Cancer Dataset
+- Perform feature scaling
+- Apply a **Decision Tree Classifier**
+- Evaluate model performance using:
+  - Accuracy Score
+  - Classification Report
+  - Confusion Matrix
+  - ROC Curve & AUC Score
+- Visualize feature correlations and feature importance
+
+---
+
+## 🧠 Dataset Information
+
+The dataset contains **30 numeric features** computed from a digitized image of a breast mass.  
+**Target Variable:**
+- `0` → Malignant
+- `1` → Benign
+
+Dataset Source: `sklearn.datasets.load_breast_cancer()`
+
+---
+
+## 🛠️ Technologies Used
+
+| Library | Purpose |
+|--------|---------|
+| Pandas | Data handling |
+| NumPy | Numerical computation |
+| Matplotlib & Seaborn | Data Visualization |
+| Scikit-Learn | ML model, preprocessing & evaluation |
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 
