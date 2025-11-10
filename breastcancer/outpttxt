@@ -1,0 +1,68 @@
+Data loaded Successfully :
+   mean radius  mean texture  ...  worst fractal dimension  target
+0        17.99         10.38  ...                  0.11890       0
+1        20.57         17.77  ...                  0.08902       0
+2        19.69         21.25  ...                  0.08758       0
+3        11.42         20.38  ...                  0.17300       0
+4        20.29         14.34  ...                  0.07678       0
+
+[5 rows x 31 columns]
+Statistical Summary:
+       mean radius  mean texture  ...  worst fractal dimension      target
+count   569.000000    569.000000  ...               569.000000  569.000000
+mean     14.127292     19.289649  ...                 0.083946    0.627417
+std       3.524049      4.301036  ...                 0.018061    0.483918
+min       6.981000      9.710000  ...                 0.055040    0.000000
+25%      11.700000     16.170000  ...                 0.071460    0.000000
+50%      13.370000     18.840000  ...                 0.080040    1.000000
+75%      15.780000     21.800000  ...                 0.092080    1.000000
+max      28.110000     39.280000  ...                 0.207500    1.000000
+
+[8 rows x 31 columns]
+Null Values in Data:
+ mean radius                0
+mean texture               0
+mean perimeter             0
+mean area                  0
+mean smoothness            0
+mean compactness           0
+mean concavity             0
+mean concave points        0
+mean symmetry              0
+mean fractal dimension     0
+radius error               0
+texture error              0
+perimeter error            0
+area error                 0
+smoothness error           0
+compactness error          0
+concavity error            0
+concave points error       0
+symmetry error             0
+fractal dimension error    0
+worst radius               0
+worst texture              0
+worst perimeter            0
+worst area                 0
+worst smoothness           0
+worst compactness          0
+worst concavity            0
+worst concave points       0
+worst symmetry             0
+worst fractal dimension    0
+target                     0
+dtype: int64
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92        43
+           1       0.96      0.94      0.95        71
+
+    accuracy                           0.94       114
+   macro avg       0.93      0.94      0.93       114
+weighted avg       0.94      0.94      0.94       114
+
+DecisionTree Classifier Accuracy is : 93.85964912280701
+Confusion Matrix : [[40  3]
+ [ 4 67]]
+ROC-AUC: 93.69472649852605
