@@ -1,1 +1,39 @@
+# 🧹 Smart Duplicate File Cleaner
 
+A Python-based automation tool to detect and remove duplicate files efficiently using checksum (MD5 hashing) with database logging support using MySQL.
+
+---
+
+## 📌 Features
+
+- 🔍 Detects duplicate files using MD5 checksum
+- 🗑️ Safe deletion using Send2Trash (Recycle Bin)
+- 🖥️ Simple GUI built with Tkinter
+- 🗄️ MySQL database integration for logging
+- 📊 Tracks scanned files and deleted records
+- ⚡ Progress tracking using TQDM
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Tkinter (GUI)
+- MySQL
+- hashlib (MD5)
+- Send2Trash
+- TQDM
+
+---
+
+## 📂 Project Structure
+Duplicate_file_cleaner_project/
+│
+├── gui.py # GUI interface
+├── scanner.py # File scanning & checksum logic
+├── deleter.py # Duplicate deletion logic
+├── db.py # Database connection
+├── config.py # DB configuration
+├── test_db.py # DB test file
+├── requirements.txt # Required libraries
+└── README.md
