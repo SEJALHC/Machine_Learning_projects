@@ -1,1 +1,56 @@
 
+# 🩺 Diabetes Detection System
+
+A Machine Learning-based web application that predicts whether a person is diabetic or not based on medical input parameters. The system uses trained models to provide accurate and fast predictions.
+
+---
+
+## 📌 Features
+
+- 🔍 Predicts diabetes based on user input
+- 📊 Uses Machine Learning algorithms
+- 🖥️ Simple and user-friendly interface
+- ⚡ Fast and accurate predictions
+- 📈 Data preprocessing and model training included
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib / Seaborn (for visualization)
+- Flask (for web app, if used)
+- HTML, CSS (for frontend)
+
+---
+
+## 📂 Project Structure
+Diabetes_Detection_Project/
+│
+├── app.py # Flask application (if applicable)
+├── model.py # ML model training script
+├── diabetes.csv # Dataset
+├── templates/ # HTML files
+├── static/ # CSS/JS files
+├── model.pkl # Saved trained model
+├── requirements.txt # Dependencies
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/diabetes-detection.git
+cd diabetes-detection
+
+pip install -r requirements.txt
+
+
+📜 Disclaimer
+
+This project is for educational purposes only and should not be used as a substitute for professional medical advice.
